@@ -55,17 +55,6 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -10.5 -16.5)
-		(end 10.5 16.5)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "2a40b299-5c55-4528-8cb6-b6a11eaff20f")
-	)
-	(fp_rect
 		(start -10 -16)
 		(end 10 16)
 		(stroke
@@ -75,17 +64,6 @@
 		(fill no)
 		(layer "F.Fab")
 		(uuid "4e55614e-689f-40cb-a1de-4456552806b2")
-	)
-	(fp_rect
-		(start -9.8 -15.8)
-		(end 9.8 15.8)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "fef54fbf-8702-4025-a739-8387753d5e70")
 	)
 	(fp_rect
 		(start -7.44 3.72)
@@ -183,28 +161,28 @@
 		)
 	)
 	(pad "" np_thru_hole circle
-		(at -10.16 -15.24)
+		(at -7.62 -12.7)
 		(size 3.5 3.5)
 		(drill 3.5)
 		(layers "*.Cu" "*.Mask")
 		(uuid "e18b163a-62d1-440a-90b5-2b091a8eccb4")
 	)
 	(pad "" np_thru_hole circle
-		(at -10.16 15.24)
-		(size 3.5 3.5)
+		(at -7.62 12.7)
+		(size 0.001 0.001)
 		(drill 3.5)
 		(layers "*.Cu" "*.Mask")
 		(uuid "3a2ed9da-0a8f-46e5-b94c-1f99e4fbc200")
 	)
 	(pad "" np_thru_hole circle
-		(at 10.16 -15.24)
+		(at 7.62 -12.7)
 		(size 3.5 3.5)
 		(drill 3.5)
 		(layers "*.Cu" "*.Mask")
 		(uuid "4bafa2d6-0202-42cb-8087-940abf226572")
 	)
 	(pad "" np_thru_hole circle
-		(at 10.16 15.24)
+		(at 7.62 12.7)
 		(size 3.5 3.5)
 		(drill 3.5)
 		(layers "*.Cu" "*.Mask")
@@ -244,7 +222,7 @@
 		(uuid "adcdd4a7-58fc-4db5-bbec-883324d28355")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/mirso/OneDrive/KiCad Liberies/KiCad-MQ135-Module/3DModels/luchtkwaliteit_sensor_mq-135__gas_sensor_mq-135.glb"
+	(model "C:/KiCad Projects/KiCad Libraries/KiCad-MQ135-Module/3DModels/MQ135_Module.step"
 		(offset
 			(xyz 0 0 0)
 		)

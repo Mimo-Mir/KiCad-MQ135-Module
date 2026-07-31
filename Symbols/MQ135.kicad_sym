@@ -58,6 +58,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "MQ135_Module"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "MQ-135_Module_1_1"
 			(rectangle
 				(start -3.81 2.54)
